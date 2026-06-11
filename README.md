@@ -12,7 +12,7 @@ The chatbot interface seamlessly handles customer inquiries, matching user inten
 The deployment demo dashboard and live user communication interface widget run in tandem:
 
 <p align="center">
-  <img src="WhatsApp%20Image%202026-06-11%20at%201.37.26%20PM_2.jpeg" alt="FinBot Chat Interface Preview" width="100%">
+  <img src="WhatsApp Image 2026-06-11 at 1.37.26 PM.jpeg" ="FinBot Chat Interface Preview" width="100%">
 </p>
 
 ---
