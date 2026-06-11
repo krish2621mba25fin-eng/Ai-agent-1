@@ -12,7 +12,7 @@ The chatbot interface seamlessly handles customer inquiries, matching user inten
 The deployment demo dashboard and live user communication interface widget run in tandem:
 
 <p align="center">
-  <img src="WhatsApp Image 2026-06-11 at 1.37.26 PM_2.jpeg" alt="FinBot Chat Interface Preview" width="100%">
+  <img src="WhatsApp%20Image%202026-06-11%20at%201.37.26%20PM_2.jpeg" alt="FinBot Chat Interface Preview" width="100%">
 </p>
 
 ---
@@ -30,12 +30,14 @@ FinBot handles high-frequency financial service queries autonomously across thre
 ## 🛠️ Architecture & Deployment Overview
 
 1. **User Interaction Ingestion**: Built on the Kommunicate live widget framework for effortless deployment on target customer-facing portals.
-2. **Intent Parsing Error Management**: Employs structural fallback states ("*I missed that, say that again?*") to maintain high-quality interactions when customer input deviates from the core intent map.
+2. **Intent Parsing Error Management**: Employs structural fallback states to maintain high-quality interactions when customer input deviates from the core intent map.
 3. **Omnichannel Handoff Capabilities**: Monitors complex queries to instantly execute hot-escalation parameters, moving the conversation to a human financial analyst panel when required.
 
 ---
 
-## 🚀 Repository Assets Note
-> [!IMPORTANT]
-> To ensure the interactive widget screenshot loads seamlessly on your project homepage, upload the source image file to your repository's root directory with this exact name:
-> * `WhatsApp Image 2026-06-11 at 1.37.26 PM_2.jpeg`
+## 🚀 Troubleshooting Image Rendering on GitHub
+
+If the image still does not display after updating your code, double-check these two common issues:
+
+1. **File Location**: The file `WhatsApp Image 2026-06-11 at 1.37.26 PM_2.jpeg` must be uploaded directly to the main (**root**) folder of your repository, right alongside this `README.md` file. It cannot be inside a subfolder like `/images` or `/assets`.
+2. **Case Sensitivity**: Ensure the file extension on your computer is exactly `.jpeg` in lowercase. If it is `.JPEG` or `.jpg`, update the filename or change the `src=` attribute in the code to match it exactly.
